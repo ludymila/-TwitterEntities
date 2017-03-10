@@ -1,0 +1,147 @@
+﻿* {
+	margin: 0;
+	padding:0;
+}
+
+body {background: #339966}
+
+#inteiro {
+	width: 1197px;
+	margin: 30px auto;
+	background: #4A485F;
+	border-top:20px solid #AFC3DE;
+}
+
+hr {display: none;}
+
+#topo h1{
+	margin: 12px;
+}
+
+#topo #menu {
+	
+	overflow: hidden;
+}
+
+#topo #menu ul {
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #727272;
+	overflow: hidden;
+}
+
+#topo #menu li{
+	display: inline;
+	list-style: none;
+
+}
+
+#topo #menu li a {
+	font: 13px Verdana,Arial,Tahoma,Sans-Serif;
+	text-decoration: none;
+	color: #339966;
+	float: left;
+	padding: 15px 93px;
+}
+
+#topo #menu li a:hover {
+	background: #4AAFA9;
+	color: #FFF;
+}
+
+
+#inspiracao{
+	background: #AFC3DE;
+	overflow: hidden;
+}
+
+#inspiracao img{
+	float:left;
+	margin-right: 10px;
+}
+
+#inspiracao h2{
+	font: bold 20px Verdana,Arial,Tahoma,Sans-Serif;
+	color: #FFF;
+	padding: 15px 0 0;
+}
+
+#inspiracao p{
+	font: 12px Verdana,Arial,Tahoma,Sans-Serif;
+	color: #FFF;
+
+	line-height: 18px;  /** espaçamento entre linhas **/
+}
+
+
+#conteudo {
+	width: 753px;
+	float: left;
+	padding: 10px;
+
+}
+
+#conteudo h3{
+	text-transform: uppercase;
+	color: #FFF;
+	font: bold 14px Verdana,Arial,Tahoma,Sans-Serif;
+
+}
+
+#conteudo p{
+	font: 12px Verdana;
+	line-height: 18px;
+	margin-bottom: 20px;
+	color:#0066CC;
+}
+
+#login {
+	width: 303px;
+	float: right;
+	background: #ACACAC
+
+}
+
+#login h2{
+	font: 12px Verdana;
+	margin: 15px 0 0;
+		margin-left: 20px 0 0;
+
+}
+
+#login fieldset{
+	border: none;
+	margin-left: 20px 0 0;
+
+}
+
+#login input{
+	margin-right: 10px 0 0;
+	border: none;
+}
+
+#login label{
+	font: 12px Verdana;
+	margin-left: 15px 0 0;
+}
+
+#rodape {
+	clear: both;
+	background: #AFC3DE
+	border-top: solid 5px #727272;
+}
+
+#rodape address{
+	float: right;
+	text-align: right;
+	padding: 10px;
+	font: 12px Verdana;
+	color:#6600CC;
+
+}
+
+#rodape address strong{
+	display: block;
+	color:#6600CC;
+	font: 18px bold Verdana;
+
+}
